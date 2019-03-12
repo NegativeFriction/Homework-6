@@ -1,9 +1,14 @@
+#categories {
+  margin: 10px;
+}
+
+.topicButton {
+  margin: 5px;
+}
+
 .descriptor {
   font-size: 20px;
   text-align: center;
-}
-
-img {
 }
 
 .container {
