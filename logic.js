@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  console.log("ready!");
-
   var topics = [
     "Star Wars",
     "Indiana Jones",
@@ -26,7 +24,6 @@ $(document).ready(function() {
   }
 
   $(document).on("click", ".topicButton", function() {
-    console.log("Click");
     buttonSubject = $(this).text();
     ajaxCall();
   });
